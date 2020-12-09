@@ -4,7 +4,7 @@ $max = $arr[0][0];
 $positionI = 0;
 $positionJ = 0;
 for ($i = 0; $i < count($arr); $i++) {
-    for ($j = 0; $j < count($arr[$i]); $j++) {
+    for ($j = 0; $j < count($arr[$i]); $j++ ) {
         if ($max < $arr[$i][$j]) {
             $max = $arr[$i][$j];
             $positionI = $i;
