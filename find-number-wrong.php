@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $first_number = $_POST['first-number'];
     $second_number = $_POST['second-number'];
     $result = calculateNumber($first_number,$second_number);
-    echo "$result";
+    echo $result;
 }
 function calculateNumber($first_number,$second_number) {
     try {
